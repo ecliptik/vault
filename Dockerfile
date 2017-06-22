@@ -9,7 +9,6 @@ WORKDIR /app
 RUN apk --no-cache add \
         --virtual build-dependencies \
           unzip \
-          ca-certificates \
           wget && \
     apk --no-cache add \
           ca-certificates && \
